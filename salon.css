@@ -1,0 +1,364 @@
+body {
+  font-size: 14px;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* header start */
+header {
+  position: fixed;  
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  font-family: 'Lobster', cursive;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  float: left;
+  font-size: 50px;
+  color: black;
+}
+
+.global-nav {
+  float: right;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 50px;
+  font-size: 28px;
+}
+
+.global-nav li a {
+  color: black;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid black;
+}
+
+ul {
+  list-style: none;
+} 
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* header end */
+
+
+/* main start */
+main {
+  height: 2350px;
+  color: black;
+  background-color: white;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 100px;
+}
+
+.maintitle {
+  font-size: 60px;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+}
+
+.subtitle {
+  font-size: 24px;
+  padding: 30px 0 0 50px;
+}
+
+.situ {
+  height: 600px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.jyoukyou {
+  height: 670px;
+  width: 700px;
+}
+
+.zen {
+  height: 600px;
+  width: 700px;
+  margin: 100px 100px 80px 0;
+}
+
+.menu {
+  line-height: 4;
+  font-family: 'Train One', cursive;
+}
+
+.menutitle {
+  display: inline-block;
+  height: 150px;
+  width: 330px;
+  font-size: 50px;
+  margin: 0 0 30px 180px;
+  padding-bottom: 0px;
+  border-bottom: 3px solid black;
+}
+
+.salonmenu {
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+.salonmenu td {
+  padding-right: 70px;
+}
+/* main end */
+
+
+/* footer start */
+footer {
+  font-family: 'Train One', cursive;
+  background-color: black;
+  height: 370px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  font-size: 17px;
+  line-height: 3;
+}
+
+.contentsmenu li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.linelogo {
+  height: 40px;
+  width: 40px;
+}
+
+.instalogo {
+  height: 40px;
+  width: 40px;
+}
+
+h3 {
+  border-bottom: 2px solid white;
+}
+
+.contents {
+  padding-left: 25px;
+}
+
+.snslist {
+  padding-left: 20px;
+}
+/* footer end */
+
+
+
+
+/* マルチデバイス start */
+@media screen and (max-width:600px) {
+  /* 画面サイズが600px以下の場合に適用 */
+
+  body {
+    font-size: 10px;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: auto;
+  }
+  
+  /* header start */
+  header {
+    position: fixed;  
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .title {
+    float: left;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .global-nav li {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 10px;
+  }
+  
+  .global-nav li a {
+    color: black;
+  }
+  
+  .global-nav li a:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  ul {
+    list-style: none;
+  } 
+  
+  a:hover {
+    text-decoration: none;
+  }
+  /* header end */
+  
+  
+  /* main start */
+  main {
+    height: 1900px;
+    width: auto;
+    color: black;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+  }
+  
+  .maintitle {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .subtitle {
+    font-size: 12px;
+    padding: 30px 0 0 10px;
+    float: left;
+  }
+  
+  .situ {
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .zen {
+    margin: 0px auto 10px auto;
+    height: 500px;
+    width: 100%;
+  }
+
+  .jyoukyou {
+    padding-bottom: 30px;
+    height: 400px;
+    width: 100%;
+  }
+  
+  .menu {
+    line-height: 2;
+    font-family: 'Train One', cursive;
+  }
+  
+  .menutitle {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 0 0 10px;
+    
+    border-bottom: 3px solid white;
+    height: 50px;
+  }
+  
+  .salonmenu {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  
+  .salonmenu td {
+    padding-right: 70px;
+  }
+  /* main end */
+  
+  
+  /* footer start */
+  footer {
+    font-family: 'Train One', cursive;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 620px;
+    display: block;
+    font-size: 12px;
+  }
+  
+  .shoplogo {
+    height: 120px;
+    width: 170px;
+    margin: auto;
+  }
+  
+  .shopinfo {
+    padding-top: 150px;
+  }
+  
+  .info {
+    display: block;
+    line-height: 2;
+  }
+
+  .infoli {
+    padding-left: 30px;
+  }
+  
+  .footer-nav {
+    padding-top: 20px;
+  }
+  
+  .contents {
+    padding: 10px 0 0 0;
+  }
+
+  .contentsmenu {
+    padding-left: 30px;
+  }
+  
+  .contentsmenu li {
+    padding-right: 10px;
+    float: left;
+  }
+  
+  .sns {
+    padding-top: 60px;
+  }
+  
+  .snslist li{
+    float: left;
+  }
+  
+  .linelogo {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+  }
+  
+  .instalogo {
+    height: 30px;
+    width: 30px;
+  }
+  /* footer end */
+
+
+}

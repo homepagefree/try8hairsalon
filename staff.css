@@ -1,0 +1,327 @@
+body {
+  font-size: 14px;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+/* header start */
+header {
+  position: fixed;  
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  font-family: 'Lobster', cursive;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  float: left;
+  font-size: 50px;
+  color: black;
+}
+
+.global-nav {
+  float: right;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 50px;
+  font-size: 28px;
+}
+
+.global-nav li a {
+  color: black;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid black;
+}
+
+ul {
+  list-style: none;
+} 
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* header end */
+
+/* main start */
+main {
+  height: 780px;
+  color: black;
+  background-color: white;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 100px;
+}
+
+.maintitle {
+  font-size: 60px;
+  margin: 0;
+}
+
+
+.image {
+  display: inline-block;
+}
+
+.staffimg {
+  height: 450px;
+  width: 330px;
+  margin: 100px 0 0 180px;
+}
+
+.info {
+  float: right;
+  
+}
+
+.name {
+  font-size: 40px;
+  margin: 80px 650px 0 0;
+}
+
+.namekana {
+  font-size: 20px;
+}
+
+.xx {
+  padding-top: 50px;
+  font-size: 20px;
+}
+/* main end */
+
+/* footer start */
+footer {
+  font-family: 'Train One', cursive;
+  background-color: black;
+  height: 370px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  font-size: 17px;
+  line-height: 3;
+}
+
+.contentsmenu li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.linelogo {
+  height: 40px;
+  width: 40px;
+}
+
+.instalogo {
+  height: 40px;
+  width: 40px;
+}
+
+h3 {
+  border-bottom: 2px solid white;
+}
+
+.contents {
+  padding-left: 25px;
+}
+
+.snslist {
+  padding-left: 20px;
+}
+/* footer end */
+
+
+
+
+/* マルチデバイス start */
+@media screen and (max-width:600px) {
+  /* 画面サイズが600px以下の場合に適用 */
+
+  body {
+    font-size: 10px;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: auto;
+  }
+  
+  /* header start */
+  body {
+    font-size: 10px;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: black;
+  }
+  
+  /* header start */
+  header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    font-family: 'Lobster', cursive;
+    border-bottom: 1px solid black ;
+    background-color: white;
+  }
+  
+  .title {
+    float: left;
+    font-size: 20px;
+    color:black;
+  }
+
+  .global-nav li {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 10px;
+  }
+  
+  .global-nav li a {
+    color: black;
+  }
+  
+  .global-nav li a:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  ul {
+    list-style: none;
+  } 
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  /* header end */
+  
+  /* main start */
+  main {
+    width: auto;
+    height: 650px;
+    color: black;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+  }
+  
+  .maintitle {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .staffimg {
+    height: 300px;
+    width: 250px;
+    margin: 40px 0 0 60px;
+  }
+  
+  .info {
+  width: 300px;
+  float: left;
+  }
+  
+  .name {
+    font-size: 30px;
+    margin: 30px 0 0 120px;
+  }
+  
+  .namekana {
+    font-size: 15px;
+    margin: 0 0 0 120px;
+  }
+
+  .xx {
+    width: 100%;
+    font-size: 11px;
+    padding-left: 30px;
+  }
+  /* main end */
+  
+  /* footer start */
+  footer {
+    font-family: 'Train One', cursive;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 570px;
+    display: block;
+    font-size: 12px;
+  }
+  
+  .shoplogo {
+    height: 120px;
+    width: 170px;
+    margin: auto;
+  }
+  
+  .shopinfo {
+    padding-top: 150px;
+  }
+  
+  .info {
+    display: block;
+    line-height: 2;
+  }
+
+  .infoli {
+    padding-left: 30px;
+  }
+  
+  .footer-nav {
+    padding-top: 20px;
+  }
+  
+  .contents {
+    padding: 100px 0 0 0;
+  }
+
+  .contentsmenu {
+    padding-left: 30px;
+  }
+  
+  .contentsmenu li {
+    padding-right: 10px;
+    float: left;
+  }
+  
+  .sns {
+    padding-top: 60px;
+  }
+  
+  .snslist li{
+    float: left;
+  }
+  
+  .linelogo {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+  }
+  
+  .instalogo {
+    height: 30px;
+    width: 30px;
+  }
+  /* footer end */
+
+}
